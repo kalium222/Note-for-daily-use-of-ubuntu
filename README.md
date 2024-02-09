@@ -43,3 +43,5 @@ You can modify some configuration in the preference such as `Cloud Input` and `F
 ### Nvidia driver
 
 My graphics is 4070s. Good luck.
+
+FUCK YOU, NVIDIA!
