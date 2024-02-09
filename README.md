@@ -40,7 +40,11 @@ for your system. In the `keyboard`, choose the `Chinese(Intelligent Pinyin)` as 
 You can modify some configuration in the preference such as `Cloud Input` and `Fuzzy syllable`.
 啊！中文！
 
-### Nvidia driver
+### Proxy server core
+
+`v2raya` with `snap`. Very important but quite simple. 
+
+## Nvidia driver
 
 My graphics is 4070s. Good luck.
 
