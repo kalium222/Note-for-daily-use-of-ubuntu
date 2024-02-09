@@ -8,7 +8,9 @@ Install ubuntu with whatever medium. Make a partition for `/home`, `/` and `/mnt
 which should not be used by ubuntu and is aiming to backing up the system with `timeshift`. Choose the whatever filesystem you
 like such as `ext4`.
 
-## Set up
+## Basic set up
+
+### Back up with `timeshift`
 
 The most important thing is the backup of the system. Install `timeshift` with `apt`.
 Then I need to mount that unused partition to `mnt/timeshft`.
