@@ -39,3 +39,7 @@ In `Settings`, make sure that there is `汉语` in the language. You don't need 
 for your system. In the `keyboard`, choose the `Chinese(Intelligent Pinyin)` as your input source.
 You can modify some configuration in the preference such as `Cloud Input` and `Fuzzy syllable`.
 啊！中文！
+
+### Nvidia driver
+
+My graphics is 4070s. Good luck.
