@@ -1,18 +1,17 @@
 # Note for daily use of ubuntu
 Record all the important things when using ubuntu22.04. 
+I should take a look to all the `man` page of all the commands I used to know what I'm doing.
 
 ## Install the ubuntu
 
 Install ubuntu with whatever medium. Make a partition for `/home`, `/` and `/mnt/timeshift`
-which shuold not be used by ubuntu and is aiming to backing up the system with `timeshift`. Choose the whatever filesystem you
+which should not be used by ubuntu and is aiming to backing up the system with `timeshift`. Choose the whatever filesystem you
 like such as `ext4`.
 
 ## Set up
 
 The most important thing is the backup of the system. Install `timeshift` with `apt`.
 Then I need to mount that unused partition to `mnt/timeshft`.
-
-First, set the filesystem on that partition 
 
 First, make a directory by `sudo mkdir /mnt/timeshift`. Then check the UUID of that unused
 partition by `sudo blkid`. The output should be
