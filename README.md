@@ -31,4 +31,11 @@ Modity the `/etc/fstab` to let the system mount that partition by adding
 PARTUUID=<PARTUUID> /mnt/timeshift ext4 defaults 0 0
 ```
 To test without rebooting, run `sudo mount -a`, otherwise you will need to enter the recovery mode if there's problem 
-when checking all your filesystems.
+when checking all your filesystems. Take a snapshot often.
+
+### Chinese input
+
+In `Settings`, make sure that there is `汉语` in the language. You don't need to set it as the language
+for your system. In the `keyboard`, choose the `Chinese(Intelligent Pinyin)` as your input source.
+You can modify some configuration in the preference such as `Cloud Input` and `Fuzzy syllable`.
+啊！中文！
