@@ -48,7 +48,7 @@ You can modify some configuration in the preference such as `Cloud Input` and `F
 
 First install `vim` with `apt`. Then get `vim-plug`. And get a my [configuration for vim](https://github.com/kalium222/vim-config).
 
-TODO: swap `capslock` and `esc` under `xorg`/`wayland`.
+Then I swaped `capslock` and `esc` under `xorg` and `wayland` by modify the enties for `esc` and `Capslock` in `/usr/share/X11/xkb/keycodes/evdev`.
 
 ## Nvidia driver
 
