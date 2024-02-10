@@ -44,6 +44,12 @@ You can modify some configuration in the preference such as `Cloud Input` and `F
 
 `v2raya` with `snap`. Very important but quite simple. 
 
+### Vim
+
+First install `vim` with `apt`. Then get `vim-plug`. And get a my [configuration for vim](https://github.com/kalium222/vim-config).
+
+TODO: swap `capslock` and `esc` under `xorg`/`wayland`.
+
 ## Nvidia driver
 
 My graphics is 4070s. Good luck.
