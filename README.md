@@ -1,11 +1,11 @@
-# Note for daily use of ubuntu
+# Note for daily use of Ubuntu
 Record all the important things when using ubuntu22.04. 
-I should take a look to all the `man` page of all the commands I used to know what I'm doing.
+I should take a look at all the `man` pages of all the commands I used to know what I'm doing.
 
-## Install the ubuntu
+## Install the Ubuntu
 
-Install ubuntu with whatever medium. Make a partition for `/home`, `/` and `/mnt/timeshift`
-which should not be used by ubuntu and is aiming to backing up the system with `timeshift`. Choose the whatever filesystem you
+Install Ubuntu with whatever medium. Make a partition for `/home`, `/` and `/mnt/timeshift`
+which should not be used by Ubuntu and is aiming to back up the system with `timeshift`. Choose whatever filesystem you
 like such as `ext4`.
 
 ## Basic set up
@@ -26,18 +26,18 @@ Set the filesystem of that partition with
 ```
 sudo mkfs -t ext4 /dev/<partition_name>
 ```
-Modity the `/etc/fstab` to let the system mount that partition by adding
+Modify the `/etc/fstab` to let the system mount that partition by adding
 ```
 PARTUUID=<PARTUUID> /mnt/timeshift ext4 defaults 0 0
 ```
-To test without rebooting, run `sudo mount -a`, otherwise you will need to enter the recovery mode if there's problem 
+To test without rebooting, run `sudo mount -a`, otherwise, you will need to enter the recovery mode if there's a problem 
 when checking all your filesystems. Take a snapshot often.
 
 ### Chinese input
 
 In `Settings`, make sure that there is `汉语` in the language. You don't need to set it as the language
-for your system. In the `keyboard`, choose the `Chinese(Intelligent Pinyin)` as your input source.
-You can modify some configuration in the preference such as `Cloud Input` and `Fuzzy syllable`.
+for your system. In the `keyboard`, choose `Chinese(Intelligent Pinyin)` as your input source.
+You can modify some configurations in the preference such as `Cloud Input` and `Fuzzy syllable`.
 啊！中文！
 
 ### Proxy server core
@@ -46,9 +46,14 @@ You can modify some configuration in the preference such as `Cloud Input` and `F
 
 ### Vim
 
-First install `vim` with `apt`. Then get `vim-plug`. And get a my [configuration for vim](https://github.com/kalium222/vim-config).
+First, install `vim` with `apt`. Then get `vim-plug`. And get my [configuration for vim](https://github.com/kalium222/vim-config).
 
-Then I swaped `capslock` and `esc` under `xorg` and `wayland` by modify the enties for `esc` and `Capslock` in `/usr/share/X11/xkb/keycodes/evdev`.
+Then I swapped `capslock` and `esc` under `xorg` and `wayland` by modifying the entries for `esc` and `Capslock` in `/usr/share/X11/xkb/keycodes/evdev`.
+
+### Tmux
+
+Get `tmux` by package manager. Then get [configurations](https://github.com/kalium222/tmux-config).
+Don't forget to get `fonts-powerline` by the package manager if you want some arrow effects. This is the same for `vim` and `bash`.
 
 ## Nvidia driver
 
